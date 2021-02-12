@@ -7,7 +7,7 @@ import javafx.scene.control.Label;
 public class HelloFX extends Application {
 
     @Override
-    public void start(Stage stage) throws Exception{
+    public void start(Stage stage) {
 
         String version = System.getProperty("javafx.version");
         Label label= new Label("Hello from JavaFX" + version);
